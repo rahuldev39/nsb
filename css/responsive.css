@@ -1,0 +1,46 @@
+@media(max-width:991px){
+    .leader-item {
+        width: 33.33%;
+        flex-basis: 33.33%;
+        margin: 15px 0px;
+    }
+    .benefits-item:nth-child(2n) {
+        border-right: 0px;
+    }
+    .map-container {
+        height: 400px;
+        position: relative;
+    }    
+    .iim-heading {
+        font-size: 37px;
+    }
+    .iim-image img{
+        width: 132px;
+    }
+}
+
+@media(max-width:768px){
+    .leader-item {
+        width: 50%;
+        flex-basis: 50%;
+    }
+    .benefits-item {
+        border-right: 0px;
+        border-bottom: 1px solid white;
+    }
+    .benefits-item:last-child {
+        border-bottom: 0px;
+    }
+}
+
+
+@media(max-width:576px){
+    .leader-item {
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .iim-image {
+        order: -1;
+        margin-bottom: 21px;
+    }
+}

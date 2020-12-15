@@ -1,0 +1,145 @@
+.mh-100vh{
+    min-height: 100vh;
+}
+.padder-lg{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+.bg-bright-blue{
+    background-color: #000079 !important;
+}
+
+.bg-primary{
+    background-color: #0166ab !important;
+}
+.text-primary{
+    color: #0166ab !important;
+}
+.bg-warning{
+    background-color: #d87203 !important;
+}
+
+
+.btn-primary {
+    background-color: #0166ab;
+    border-color: #0166ab;
+}
+
+
+
+/*###############-------Navigation section------#################*/
+.navbar-nav .nav-item .nav-link h5 {
+    font-size: 15px;
+}
+.navbar-nav .nav-item .nav-link span {
+    font-size: 13px;
+    display: block;
+}
+
+/*###############-------Video Banner------#################*/
+.hero-section{
+    min-height: calc(100vh - 71px);
+}
+#video-banner{
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    pointer-events: none;
+   
+}
+
+
+/*###############-------IIM section------#################*/
+.iim-heading {
+    font-size: 55px;
+}
+
+
+
+/*###############-------Course Section------#################*/
+.course-item {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+/*###############-------Key benefit section------#################*/
+.key-benefits{
+    background-image: url(../images/key-benifit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benefits-item{
+    border-right: 1px solid white
+}
+.benefits-item:last-child{
+    border-right: 0px;
+}
+
+/*###############-------Leader section------#################*/
+.leader-item {
+    width: 20%;
+    flex-basis: 20%;
+    padding: 0px 10px;
+}
+.leader-item > div{
+    padding-bottom: 54px;
+}
+.leader-name {
+    bottom: 0px;
+    width: 100%;
+    clip-path: polygon(0% 40%, 106% 0%, 100% 100%, 0% 100%);
+    min-height: 92px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.leader-name h5 {
+    font-size: 16px !important;
+}
+
+/*###############-------Learn  section------#################*/
+.learn-with-us-section{
+    background-image: url(../images/banner-pink.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*###############-------Map  section------#################*/
+.map-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/*###############-------Footer  section------#################*/
+.footer{
+    background-image: url(../images/footer-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+}
+
+.social-list li a {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0px 6px;
+}
+.social-list li a:hover{
+    text-decoration: none;
+}
+.phone-icon {
+    font-size: 22px;
+}
