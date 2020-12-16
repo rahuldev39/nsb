@@ -65,40 +65,41 @@
       <source src="./video/banner-video.mp4" type="video/mp4">
     </video>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 col-lg-5">
-          <div class="enquire-now-form bg-white p-4 rounded shadow m-md-4">
-             <h4 class="font-weight-bold mb-1">Enquire Now</h4>
-             <p>Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry.</p>
-              <div class="form-group mb-2">
-                <input class="form-control" type="text" placeholder="Name">
-              </div>
-              <div class="form-group mb-2">
-                <input class="form-control" type="text" placeholder="Email ID">
-              </div>
-              <div class="form-group mb-2">
-                <input class="form-control" type="text" placeholder="Contact No.">
-              </div>
-              <div class="form-group mb-2">
-                <select class="form-control">
-                  <option value="">Courses Applying For</option>
-                </select>
-              </div>
-              <div class="form-group mb-2">
-                <input class="form-control" type="text" placeholder="Your City">
-              </div>  
-              <div class="form-group mb-2">
-                <textarea class="form-control" name="" id="" rows="3" placeholder="Query"></textarea>
-              </div> 
-              <div class="text-right">
-                <button class="btn btn-primary">SUBMIT</button>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <button class="btn toggle-btn p-0 position-fixed outside">
+      Enquire Now
+    </button>
+
+    <div class="enquire-now-form bg-white p-4 rounded shadow  position-fixed">
+      <button class="btn btn-link toggle-btn p-0 position-absolute">
+        <img src="./images/close.svg" width="15" alt="">
+      </button>
+      <h4 class="font-weight-bold mb-1">Enquire Now</h4>
+      <p>Lorem Ipsum is simply dummy text of the
+       printing and typesetting industry.</p>
+       <div class="form-group mb-2">
+         <input class="form-control" type="text" placeholder="Name">
+       </div>
+       <div class="form-group mb-2">
+         <input class="form-control" type="text" placeholder="Email ID">
+       </div>
+       <div class="form-group mb-2">
+         <input class="form-control" type="text" placeholder="Contact No.">
+       </div>
+       <div class="form-group mb-2">
+         <select class="form-control">
+           <option value="">Courses Applying For</option>
+         </select>
+       </div>
+       <div class="form-group mb-2">
+         <input class="form-control" type="text" placeholder="Your City">
+       </div>  
+       <div class="form-group mb-2">
+         <textarea class="form-control" name="" id="" rows="3" placeholder="Query"></textarea>
+       </div> 
+       <div class="text-right">
+         <button class="btn btn-primary">SUBMIT</button>
+       </div>
+   </div>
 
   </header>
 
@@ -118,7 +119,7 @@
     </section>
 
 
-    <section class="section text-center">
+    <section class="section course-section text-center">
       <div class="container py-5">
         <div class="section-header">
           <h2 class="font-weight-bold text-primary">FULL-TIME AICTE APPROVED PROGRAMME</h2>
@@ -243,7 +244,7 @@
           <div class="d-flex flex-wrap">
             <div class="leader-item">
               <div class="position-relative">
-                <img src="./images/leaders/1.png" class="w-100" alt="">
+                <div class="overflow-hidden"><img src="./images/leaders/1.png" class="w-100" alt=""></div>
                 <div class="leader-name bg-primary position-absolute">
                   <h5 class="text-white">PRADIP CHANDA</h5>
                 </div>
@@ -251,7 +252,8 @@
             </div>
             <div class="leader-item">
               <div class="position-relative">
-                <img src="./images/leaders/2.png" class="w-100" alt="">
+                <div class="overflow-hidden"><img src="./images/leaders/2.png" class="w-100" alt=""></div>
+
                 <div class="leader-name bg-primary position-absolute">
                   <h5 class="text-white">SHIKSHA SINGH
                     KUSHWAH</h5>
@@ -261,7 +263,7 @@
             </div>
             <div class="leader-item">
               <div class="position-relative">
-                <img src="./images/leaders/3.png" class="w-100" alt="">
+                <div class="overflow-hidden"><img src="./images/leaders/3.png" class="w-100" alt=""></div>
                 <div class="leader-name bg-primary position-absolute">
                   <h5 class="text-white">SHIKSHA SINGH
                     KUSHWAH</h5>
@@ -270,7 +272,7 @@
             </div>
             <div class="leader-item position-relative">
               <div class="position-relative">
-                <img src="./images/leaders/4.png" class="w-100" alt="">
+                <div class="overflow-hidden"><img src="./images/leaders/4.png" class="w-100" alt=""></div>
                 <div class="leader-name bg-primary position-absolute">
                   <h5 class="text-white">VISHAL SINGH PATYAL</h5>
                 </div>
@@ -278,7 +280,7 @@
             </div>
             <div class="leader-item position-relative">
               <div class="position-relative">
-                <img src="./images/leaders/5.png" class="w-100" alt="">
+                <div class="overflow-hidden"><img src="./images/leaders/5.png" class="w-100" alt=""></div>
                 <div class="leader-name bg-primary position-absolute">
                   <h5 class="text-white">SHWETA JAISWAL
                     THAKUR</h5>
@@ -347,7 +349,7 @@
       <div class="footer-logo mb-5">
         <img src="./images/ntpc_logo.png" width="400" class="img-fluid" alt="">
       </div>
-      <h2 class="font-weight-bold text-white">DON’T MISS THIS UNIQUE OPPERTUNITY</h2>
+      <h2 class="font-weight-bold text-white">DON’T MISS THIS UNIQUE OPPORTUNITY</h2>
       <p class="text-white pb-4">To know more visit (https://nsb.ac.in/) Email: admission@nsb.ac.in</p>
       <ul class="social-list d-flex align-items-center list-unstyled justify-content-center my-4">
         <li>
@@ -381,292 +383,6 @@
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEQX0HjabGKm-vcWbQ4-rLaWioMoJoP_Y"></script>
   <script src="./vendor/snazzy-map/snazzy-info-window.js"></script>
   <script src="js/script.js"></script>
-
-    <script type="text/javascript">
-      // When the window has finished loading create our google map below
-      google.maps.event.addDomListener(window, "load", init);
-  
-      function init() {
-        // Basic options for a simple Google Map
-        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-        var mapOptions = {
-          // How zoomed in you want the map to start at (always required)
-          zoom: 14,
-  
-          // The latitude and longitude to center the map (always required)
-          center: new google.maps.LatLng(25.4782774, 81.8606821, 10),
-  
-          // How you would like to style the map.
-          // This is where you would paste any style found on Snazzy Maps.
-          styles: [
-      {
-          "featureType": "administrative",
-          "elementType": "labels.text.fill",
-          "stylers": [
-              {
-                  "color": "#00426a"
-              },
-              {
-                  "saturation": "-75"
-              },
-              {
-                  "lightness": "30"
-              }
-          ]
-      },
-      {
-          "featureType": "landscape",
-          "elementType": "labels.text.fill",
-          "stylers": [
-              {
-                  "color": "#00426a"
-              },
-              {
-                  "saturation": "-27"
-              },
-              {
-                  "lightness": "22"
-              }
-          ]
-      },
-      {
-          "featureType": "landscape.man_made",
-          "elementType": "all",
-          "stylers": [
-              {
-                  "visibility": "off"
-              }
-          ]
-      },
-      {
-          "featureType": "landscape.natural",
-          "elementType": "geometry.fill",
-          "stylers": [
-              {
-                  "color": "#0076a8"
-              },
-              {
-                  "lightness": "90"
-              },
-              {
-                  "saturation": "-80"
-              },
-              {
-                  "gamma": "1.00"
-              }
-          ]
-      },
-      {
-          "featureType": "poi",
-          "elementType": "all",
-          "stylers": [
-              {
-                  "visibility": "off"
-              }
-          ]
-      },
-      {
-          "featureType": "road",
-          "elementType": "geometry.stroke",
-          "stylers": [
-              {
-                  "visibility": "off"
-              }
-          ]
-      },
-      {
-          "featureType": "road",
-          "elementType": "labels",
-          "stylers": [
-              {
-                  "weight": "0.01"
-              }
-          ]
-      },
-      {
-          "featureType": "road",
-          "elementType": "labels.text.fill",
-          "stylers": [
-              {
-                  "color": "#00426a"
-              },
-              {
-                  "lightness": "47"
-              },
-              {
-                  "saturation": "-75"
-              }
-          ]
-      },
-      {
-          "featureType": "road",
-          "elementType": "labels.icon",
-          "stylers": [
-              {
-                  "weight": "0.01"
-              },
-              {
-                  "lightness": "36"
-              },
-              {
-                  "saturation": "-59"
-              }
-          ]
-      },
-      {
-          "featureType": "road.highway",
-          "elementType": "geometry.fill",
-          "stylers": [
-              {
-                  "color": "#0076a8"
-              },
-              {
-                  "weight": "1.00"
-              },
-              {
-                  "lightness": "45"
-              },
-              {
-                  "saturation": "-67"
-              }
-          ]
-      },
-      {
-          "featureType": "road.highway",
-          "elementType": "labels.icon",
-          "stylers": [
-              {
-                  "saturation": "-62"
-              },
-              {
-                  "visibility": "simplified"
-              },
-              {
-                  "gamma": "0.66"
-              },
-              {
-                  "hue": "#0075ff"
-              },
-              {
-                  "lightness": "17"
-              }
-          ]
-      },
-      {
-          "featureType": "road.arterial",
-          "elementType": "geometry.fill",
-          "stylers": [
-              {
-                  "color": "#0076a8"
-              },
-              {
-                  "lightness": "63"
-              },
-              {
-                  "saturation": "-76"
-              },
-              {
-                  "weight": "2"
-              }
-          ]
-      },
-      {
-          "featureType": "road.local",
-          "elementType": "all",
-          "stylers": [
-              {
-                  "visibility": "simplified"
-              },
-              {
-                  "color": "#0076a8"
-              },
-              {
-                  "lightness": "66"
-              },
-              {
-                  "saturation": "-81"
-              }
-          ]
-      },
-      {
-          "featureType": "transit.station",
-          "elementType": "geometry.fill",
-          "stylers": [
-              {
-                  "color": "#0076a8"
-              },
-              {
-                  "lightness": "70"
-              },
-              {
-                  "saturation": "-78"
-              }
-          ]
-      },
-      {
-          "featureType": "transit.station",
-          "elementType": "geometry.stroke",
-          "stylers": [
-              {
-                  "lightness": "50"
-              }
-          ]
-      },
-      {
-          "featureType": "transit.station",
-          "elementType": "labels.text",
-          "stylers": [
-              {
-                  "saturation": "-47"
-              }
-          ]
-      },
-      {
-          "featureType": "water",
-          "elementType": "all",
-          "stylers": [
-              {
-                  "color": "#0076a8"
-              },
-              {
-                  "visibility": "on"
-              },
-              {
-                  "lightness": "58"
-              },
-              {
-                  "saturation": "-44"
-              },
-              {
-                  "gamma": "0.87"
-              }
-          ]
-      }
-  ],
-        };
-  
-        // Get the HTML DOM element that will contain your map
-        // We are using a div with id="map" seen below in the <body>
-        var mapElement = document.getElementById("map");
-  
-        // Create the Google Map using our element and options defined above
-        var map = new google.maps.Map(mapElement, mapOptions);
-  
-        // Let's also add a marker while we're at it
-        var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(25.4782774, 81.8606821, 10),
-          map: map,
-          title: "VENSYSCO INFRA PRIVATE LIMITED",
-        });
-  
-        var info = new SnazzyInfoWindow({
-          marker: marker,
-          content: "VENSYSCO INFRA PRIVATE LIMITED",
-        });
-        info.open();
-      }
-    </script>
-
 </body>
 
 </html>

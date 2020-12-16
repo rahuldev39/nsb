@@ -31,6 +31,22 @@
     .benefits-item:last-child {
         border-bottom: 0px;
     }
+    .outside.toggle-btn {
+        text-indent: -999px;
+        padding: 0 !important;
+        height: 34px;
+        left: 10px;
+        top: 100px;
+        width: 44px;
+        background-position: 11px center;
+        overflow: hidden;
+    }
+    .hero-section .enquire-now-form {
+       
+        top: 88px;
+        left: 10px;
+        margin-right: 10px;
+    }
 }
 
 

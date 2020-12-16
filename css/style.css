@@ -48,7 +48,39 @@
     pointer-events: none;
    
 }
+.hero-section .enquire-now-form{
+    max-width: 380px;
+    top: 100px;
+    left: 40px;
+    transition: all ease-in-out 300ms;
+    z-index: 999999;
+    
+}
+.hero-section .enquire-now-form.out{
 
+    left: -400px;
+}
+.toggle-btn {
+    right: 12px;
+    top: 7px;
+}
+.outside.toggle-btn {
+    top: 50%;
+    left: -31px;
+    color: #fff;
+    height: 40px;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 600;
+    background: url(../images/ic_form.png) no-repeat 24px center;
+    background-color: #d87203;
+    padding: 6px 22px 9px 60px !important;
+    border-radius: 20px;
+    transform-origin: center center;
+    transform: rotate(-90deg);
+    transition: .5s;
+    z-index: 100;
+}
 
 /*###############-------IIM section------#################*/
 .iim-heading {
@@ -62,7 +94,12 @@
     max-width: 500px;
     margin: 0 auto;
 }
-
+.course-section .row > div{
+    transition: all ease-in-out 300ms;
+}
+.course-section .row > div:hover {
+    background-color: #000079 !important;
+}
 
 /*###############-------Key benefit section------#################*/
 .key-benefits{
@@ -102,7 +139,12 @@
 .leader-name h5 {
     font-size: 16px !important;
 }
-
+.leader-item img{
+    transition: all ease-in-out 300ms;
+}
+.leader-item:hover img{
+    transform: scale(1.1);
+}
 /*###############-------Learn  section------#################*/
 .learn-with-us-section{
     background-image: url(../images/banner-pink.png);
