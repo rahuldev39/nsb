@@ -20,7 +20,7 @@ $(window).scroll(function() {
 
 
 
-
+// Recruiter Slider
 $(document).ready(function(){
 	$('.recruiter-slider').slick({
 		pauseOnFocus:false,

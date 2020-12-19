@@ -171,6 +171,74 @@
     background-size: cover;
 }
 
+
+/*###############-------Why pgdm Section------#################*/
+.why-pgdm-section{
+    background-image: url(../images/energy-banner.png);
+    background-size: cover;
+}
+
+/*###############-------App procedure Section------#################*/
+.app-procedure .bg-icon img{
+    pointer-events: none;
+    z-index: -1;
+}
+.app-procedure .bg-icon .icon1{
+    bottom: 0px;
+    left: 0px;
+}   
+.app-procedure .bg-icon .icon2{
+    bottom: 0px;
+    right: 0px;
+}
+.app-procedure .bg-icon .icon3{
+    top: 100px;
+    left: 0px;
+}
+.app-procedure .bg-icon .icon4{
+    top: 30%;
+    right: 40px;
+}
+
+
+/*###############-------Recruiter  Section------#################*/
+.recruiter-section{
+    background-image: url(../images/recruiter_banner.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.recruiter-slider .slick-arrow::before{
+    font-size: 36px;
+}
+.slick-prev {
+    left: 0px;
+}
+.slick-next {
+    right: 0px;
+}
+
+
+/*###############-------How Apply  Section------#################*/
+.apply-item {
+
+    margin: 10px;
+    max-width: 400px;
+}
+
+.apply-item p{
+    font-size: 13px;
+}
+.flex-1{
+    flex: 1 !important;
+   }
+.flex-2{
+ flex: 2 !important;
+}
+.flex-3{
+    flex: 3 !important;
+}
+
 /*###############-------Map  section------#################*/
 .map-container {
     position: absolute;
@@ -205,64 +273,3 @@
     font-size: 22px;
 }
 
-.why-pgdm-section{
-    background-image: url(../images/energy-banner.png);
-    background-size: cover;
-}
-.app-procedure .bg-icon img{
-    pointer-events: none;
-    z-index: -1;
-}
-.app-procedure .bg-icon .icon1{
-    bottom: 0px;
-    left: 0px;
-}   
-.app-procedure .bg-icon .icon2{
-    bottom: 0px;
-    right: 0px;
-}
-.app-procedure .bg-icon .icon3{
-    top: 100px;
-    left: 0px;
-}
-.app-procedure .bg-icon .icon4{
-    top: 30%;
-    right: 40px;
-}
-
-
-.recruiter-section{
-    background-image: url(../images/recruiter_banner.png);
-    background-size: cover;
-    background-position: bottom;
-}
-
-
-.recruiter-slider .slick-arrow::before{
-    font-size: 36px;
-}
-.slick-prev {
-    left: 0px;
-}
-.slick-next {
-    right: 0px;
-}
-
-.apply-item {
-
-    margin: 10px;
-    max-width: 400px;
-}
-
-.apply-item p{
-    font-size: 13px;
-}
-.flex-1{
-    flex: 1 !important;
-   }
-.flex-2{
- flex: 2 !important;
-}
-.flex-3{
-    flex: 3 !important;
-}
