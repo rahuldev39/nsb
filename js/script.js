@@ -17,6 +17,24 @@ $(window).scroll(function() {
         $(".enquire-now-form").removeClass("out");
     }
 });
+
+
+
+
+$(document).ready(function(){
+	$('.recruiter-slider').slick({
+		pauseOnFocus:false,
+		pauseOnHover:false,
+		autoplay:true,
+		arrows:true,
+		infinite: true,
+		rows: 1,
+		mobileFirst: true,
+        dots: false,
+        slidesToShow: 1,
+		slidesToScroll: 1,
+	});
+  });
  
  
  

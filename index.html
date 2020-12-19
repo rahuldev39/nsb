@@ -13,6 +13,8 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+  <link href="./vendor/slick/slick.css" rel="stylesheet">
+  <link href="./vendor/slick/slick-theme.css" rel="stylesheet">
   <link href="./vendor/snazzy-map/snazzy-info-window.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
   <link href="./css/responsive.css" rel="stylesheet">
@@ -22,7 +24,7 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white static-top shadow-sm">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="./images/logo.png" width="300" alt="">
       </a>
@@ -30,7 +32,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto align-items-lg-center">
           <li class="nav-item mr-3">
             <a class="nav-link d-flex align-items-center text-primary" href="#">
               <div class="icon">
@@ -42,7 +44,7 @@
               </div>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-3">
             <a class="nav-link d-flex align-items-center text-primary" href="#">
               <div class="icon">
                 <img src="./images/mail-icon.png" width="22" alt="">
@@ -52,6 +54,11 @@
                 <span>admission@nsb.ac.in</span>
               </div>
             </a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-primary text-uppercase font-semibold nav-btn">
+              Apply Now
+            </button>
           </li>
         </ul>
       </div>
@@ -105,23 +112,13 @@
   <!-- Page Content -->
   <main>
 
-    <section class="section bg-bright-blue py-4 iim-section">
-      <div class="container">
-        <div class="d-flex flex-sm-row flex-column align-items-center justify-content-center text-sm-left text-center">
-            <h1 class="mb-0 font-weight-bold mr-sm-5 text-white iim-heading">ACADEMIC <br> SUPPORT FROM</h1>
-
-            <div class="iim-image ml-md-5">
-              <img src="./images/IIM-logo-white].png" alt="">
-            </div>
-        </div>
-      </div>
-    </section>
+  
 
 
-    <section class="section course-section text-center">
+    <section class="section course-section text-center mb-2">
       <div class="container py-5">
         <div class="section-header">
-          <h2 class="font-weight-bold text-primary">FULL-TIME AICTE APPROVED PROGRAMME</h2>
+          <h2 class="font-weight-bold text-bright-blue">Full-Time AICTE Approved Programme</h2>
         </div>
       </div>
 
@@ -131,9 +128,9 @@
             <div class="icon mb-3">
               <img src="./images/course-icon.png" width="160" alt="">
             </div>
-            <h2 class="text-white">Post Graduate Diploma
-              in Management – Executive
-              (PGDM-E)</h2>
+            <h2 class="text-white">Post Graduate Diploma in
+              Management – Executive
+              (PGDM-E)- 15 Months</h2>
           </div>
         </div>
         <div class="col-md-6 bg-warning">
@@ -141,143 +138,267 @@
             <div class="icon mb-3">
               <img src="./images/course-icon.png" width="160" alt="">
             </div>
-            <h2 class="text-white">Post Graduate Diploma
-              in Energy Management
-              (PGDM-EM)</h2>
+            <h2 class="text-white">Post Graduate Diploma in
+              Management – Energy
+              Management (PGDM-EM)- 2 Years</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+
+    <section class="section why-pgdm-section text-center py-5">
+      <div class="container"> 
+
+          <div class="icon mb-4">
+            <img src="./images/energy-icon.png" width="100" alt="">
+          </div>  
+
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <h3 class="font-weight-bold mb-3 text-white">WHY PGDM IN ENERGY MANAGEMENT</h3>
+              <p class="text-white">It recognizes the centrality of energy for inclusive growth driven through interplay of regulations, market instruments
+                and institutional mechanisms. An equally important opportunity is to respond to India’s call to
+                create and consolidate her niche in related areas of management in the community of nations globally.
+                This includes energy and resource modelling, variety of externalities, economics, trade, environmental
+                management, technology, equity, justice, law, management and communication systems and community
+                interfaces duly building capacities of all related stakeholders. The course embeds well defined and
+                emerging learning on these and related facets of management relevant at the regional, national, and
+                global levels. It helps emerging professionals with a 360 degree perspective, essential to capture career
+                opportunities and importantly fulfil aspirations of businesses with the country, nations and
+                humanity as a whole.</p>
+            </div>
+          </div>
+          
+
+      </div>
+    </section>
+
+    <section class="section curriculum-section py-5">
+
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="./images/curriculum_image.png" class="w-100 h-100 object-fit-cover" alt="">
+          </div>
+          <div class="col-md-6">
+            <div class="curriculum-info border border-primary h-100 p-4 d-flex flex-column justify-content-center">
+              <h3 class="font-weight-bold text-primary">CURRICULUM & PEDAGOGY</h3>
+              <p>The curriculum is designed by experienced faculty
+                members and experts from various reputed
+                institutions, and veterans from leading global
+                energy organizations.</p>
+                <p class="mb-0">The pedagogy includes lectures, case studies,
+                  group projects, discussions, live research projects,
+                  simulation and management games. Elective
+                  courses are offered based on the interest, areas of
+                  specialization and industry requirements.</p>
+            </div>
           </div>
         </div>
       </div>
 
     </section>
 
-
     <section class="section">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <div class="section-header text-center">
-              <h2 class="font-weight-bold text-primary mb-3">WELCOME TO NTPC SCHOOL OF BUSINESS</h2>
-              <p>Under the aegis of NEARS, NTPC School of Business (NSB) was set up in the year 2014 with the
-                aim to nurture human capital for the entire energy sector.</p>
-            </div>
-          </div>
-        </div>
-       
-      </div>
+      
 
       <div class="key-benefits py-5 text-center">
         <div class="container">
-          <h2 class="font-weight-bold text-white mb-5">KEY BENEFITS OF PGDM (Energy Management)</h2>
+          <h2 class="font-weight-bold text-white mb-5">KEY BENEFITS OF THE PROGRAMME</h2>
 
           <div class="row pt-4">
-            <div class="col-md-6 col-lg-3 my-lg-0 my-4 benefits-item">
+            <div class="col-md-4 my-lg-0 my-4 benefits-item">
               <div class="px-0 px-lg-4">
                 <div class="icon mb-4">
                   <img src="./images/Icon-1.png" height="80" alt="">
                 </div>
-                <p class="text-white">The programme encourages discussion beyond the classroom to prepare students for critical analysis and application of skill to real business situations.</p>               
+                <p class="text-white">The programme encourages discussion
+                  using Case based pedagogy,
+                  interactive guest lecture
+                  classroom to prepare students for
+                  critical analysis and application of
+                  skill to real business situations.</p>               
               </div>
             </div>
-            <div class="col-md-6 col-lg-3 my-lg-0 my-4 benefits-item">
+            <div class="col-md-4 my-lg-0 my-4 benefits-item">
               <div class="px-0 px-lg-4">
                 <div class="icon mb-4">
                   <img src="./images/Icon-2.png" height="80" alt="">
                 </div>
-                <p class="text-white">Advantages of learning theoretical and practical aspects of management from professors of IIMA and through insightful internships.</p>               
+                <p class="text-white">Students gain advantages from
+                  learning theoretical and practical
+                  aspects of energy management
+                  from Professors of IIMA, NSB and
+                  energy sector veterans.</p>               
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 my-lg-0 my-4 benefits-item">
+            <div class="col-md-4 my-lg-0 my-4 benefits-item">
               <div class="px-0 px-lg-4">
                 <div class="icon mb-4">
                   <img src="./images/Icon-3.png" height="80" alt="">
                 </div>
-                <p class="text-white">Students learn to combine the fundamentals of management with domain / industry expertise to be career ready whenever the opportunity arrives.</p>               
+                <p class="text-white">Multiple opportunities are made
+                  available for students that
+                  encourage their growth through
+                  experiential learning. Such activities
+                  include internships, field visits,
+                  research projects, and guest
+                  lectures.</p>               
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 my-lg-0 my-4 benefits-item">
-              <div class="px-0 px-lg-4">
-                <div class="icon mb-4">
-                  <img src="./images/Icon-4.png" height="80" alt="">
-                </div>
-                <p class="text-white">Every opportunity is made available for students to gain practical insights from internships to organisations, as well as, field visits.</p>               
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section py-5">
+    <section class="section py-5 app-procedure text-center position-relative overflow-hidden">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <div class="section-header text-center mb-5">
-              <h2 class="font-weight-bold text-primary mb-3">OUR LEADERS</h2>
-              <p>Our faculty leaders hail from different fields of studies, ranging from marketing and human resources to the energy and technological fields. They aim to bring their insight and experiences to the study of Energy Management for all the students at NTPC School of Business. </p>
+        <div class="icon mb-3">
+            <img src="./images/application_icon.png" width="100" alt="">
+        </div>
+        <h2 class="font-weight-bold text-warning mb-5">Application Procedure</h2>
+
+        <div class="row justify-content-center py-5">
+          <div class="col-md-4">
+            <div class="icon mb-3">
+              <img src="./images/eligibility-icon.png" width="80" alt="">
             </div>
+            <h4 class="text-primary font-weight-bold">Eligibility Criteria</h4>
+            <p class="text-primary">50% plus in Graduation +
+              Valid Score in CAT/ XAT/ GMAT/MAT</p>
+          </div>
+          <div class="col-md-4">
+            <div class="icon mb-3">
+              <img src="./images/eligibility-icon-2.png" width="80" alt="">
+            </div>
+            <h4 class="text-primary font-weight-bold">Last Date to Apply</h4>
+            <p class="text-primary">14th Feb 2021</p>
           </div>
         </div>
 
+      </div>
 
-        <div class="leader-conatiner text-center">
-          <div class="d-flex flex-wrap">
-            <div class="leader-item">
-              <div class="position-relative">
-                <div class="overflow-hidden"><img src="./images/leaders/1.png" class="w-100" alt=""></div>
-                <div class="leader-name bg-primary position-absolute">
-                  <h5 class="text-white">PRADIP CHANDA</h5>
-                </div>
-              </div>
+      <div class="bg-icon">
+        <img src="./images/design-1.png" class="icon1 position-absolute" alt="">
+        <img src="./images/design-2.png" class="icon2 position-absolute" alt="">
+        <img src="./images/design-3.png" class="icon3 position-absolute" alt="">
+        <img src="./images/design-3.png" class="icon4 position-absolute" alt="">
+      </div>
+    </section>
+
+
+    <section class="section recruiter-section py-5 text-center">
+
+      <div class="container">
+
+        <h2 class="text-white font-weight-bold mb-0">MEET OUR RECRUITERS</h2>
+
+        <div class="recruiter-slider px-md-5 px-4 py-5">
+          <div class="recruiter-item px-4">
+            <img src="./images/RECRUITERS.png" class="mx-auto img-fluid" alt="">
+          </div>
+          <div class="recruiter-item px-4">
+            <img src="./images/RECRUITERS.png" class="mx-auto img-fluid" alt="">
+          </div>
+          <div class="recruiter-item px-4">
+            <img src="./images/RECRUITERS.png" class="mx-auto img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section apply-section py-5">
+      <div class="container">
+
+        <div class="text-center mb-4">
+          <h2 class="font-weight-bold text-primary">HOW TO APPLY</h2>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="apply-item border border-primary p-3 d-flex align-items-center ">
+            <div class="icon mr-3">
+              <img src="./images/11.png" width="70" alt="">
             </div>
-            <div class="leader-item">
-              <div class="position-relative">
-                <div class="overflow-hidden"><img src="./images/leaders/2.png" class="w-100" alt=""></div>
-
-                <div class="leader-name bg-primary position-absolute">
-                  <h5 class="text-white">GIREESH CHANDRA TRIPATHI</h5>
-                </div>
+            <div class="apply-item-text"> 
+              <div class="text-center mb-3">
+                <img src="./images/11icon.png" alt="">
               </div>
               
+              <p class="mb-0 text-primary font-semibold">Registration / <br>
+                Application form
+                is filled online.</p>
             </div>
-            <div class="leader-item">
-              <div class="position-relative">
-                <div class="overflow-hidden"><img src="./images/leaders/3.png" class="w-100" alt=""></div>
-                <div class="leader-name bg-primary position-absolute">
-                  <h5 class="text-white">SHIKSHA SINGH
-                    KUSHWAH</h5>
-                </div>
-              </div>
+          </div>
+
+          <div class="apply-item border border-primary p-3 d-flex flex-3 align-items-center ">
+            <div class="icon mr-3">
+              <img src="./images/22.png" width="70" alt="">
             </div>
-            <div class="leader-item position-relative">
-              <div class="position-relative">
-                <div class="overflow-hidden"><img src="./images/leaders/4.png" class="w-100" alt=""></div>
-                <div class="leader-name bg-primary position-absolute">
-                  <h5 class="text-white">VISHAL SINGH PATYAL</h5>
-                </div>
+            <div class="apply-item-text"> 
+              <div class="text-center mb-3">
+                <img src="./images/22icon.png" alt="">
               </div>
+              <p class="mb-0 text-primary font-semibold">Applicant should have a valid
+                personal e-mail ID and mobile number
+                to start registration process using link
+                https://nsb.ac.in/admission/#/login</p>
             </div>
-            <div class="leader-item position-relative">
-              <div class="position-relative">
-                <div class="overflow-hidden"><img src="./images/leaders/5.png" class="w-100" alt=""></div>
-                <div class="leader-name bg-primary position-absolute">
-                  <h5 class="text-white">SHWETA JAISWAL
-                    THAKUR</h5>
-                </div>
+          </div>
+
+          <div class="apply-item border border-primary p-3 d-flex align-items-center flex-2">
+            <div class="icon mr-3">
+              <img src="./images/33.png" width="70" alt="">
+            </div>
+            <div class="apply-item-text"> 
+              <div class="text-center mb-3">
+                <img src="./images/33icon.png" alt="">
               </div>
+              <p class="mb-0 text-primary font-semibold">Applicant must fill
+                correct details required in
+                application form.</p>
+            </div>
+          </div>
+
+          <div class="apply-item border border-primary p-3 d-flex flex-2 align-items-center">
+            <div class="icon mr-3">
+              <img src="./images/44.png" width="70" alt="">
+            </div>
+            <div class="apply-item-text"> 
+              <div class="text-center mb-3">
+                <img src="./images/44icon.png" alt="">
+              </div>
+              <p class="mb-0 text-primary font-semibold">Application form may be filled
+                at https://nsb.ac.in/admission/#/login
+                using registred email id.</p>
+            </div>
+          </div>
+          <div class="apply-item border border-primary p-3 d-flex flex-2 align-items-center">
+            <div class="icon mr-3">
+              <img src="./images/55.png" width="70" alt="">
+            </div>
+            <div class="apply-item-text"> 
+              <div class="text-center mb-3">
+                <img src="./images/55icon.png" alt="">
+              </div>
+              <p class="mb-0 text-primary font-semibold">Submit Application fee after
+                successful completion of form
+                using payment gateway or transfer
+                to NSB bank account.</p>
             </div>
           </div>
         </div>
-        
+
       </div>
     </section>
 
-    <section class="learn-with-us-section section padder-lg text-center">
-      <div class="container py-4">
-          <h2  class="font-weight-bold text-white mb-0">LEARN THE ART OF ENERGY MANAGMENT WITH US</h2>
-      </div>
-    </section>
 
     <section class="section">
 
@@ -361,6 +482,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEQX0HjabGKm-vcWbQ4-rLaWioMoJoP_Y"></script>
   <script src="./vendor/snazzy-map/snazzy-info-window.js"></script>
+  <script src="vendor/slick/slick.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 

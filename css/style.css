@@ -5,7 +5,12 @@
     padding-top: 80px !important;
     padding-bottom: 80px !important;
 }
-
+.font-semibold {
+    font-weight: 500;
+}
+.border-primary {
+    border-color: #0166ab!important;
+}
 .bg-bright-blue{
     background-color: #000079 !important;
 }
@@ -16,19 +21,29 @@
 .text-primary{
     color: #0166ab !important;
 }
+.text-bright-blue{
+    color: #000079 !important;
+}
+.text-warning{
+    color: #d87203!important;
+}
 .bg-warning{
     background-color: #d87203 !important;
 }
-
-
 .btn-primary {
     background-color: #0166ab;
     border-color: #0166ab;
 }
 
+.object-fit-cover{
+    object-fit: cover;
+}
 
 
 /*###############-------Navigation section------#################*/
+.navbar{
+    z-index: 1006;
+}
 .navbar-nav .nav-item .nav-link h5 {
     font-size: 15px;
 }
@@ -36,7 +51,11 @@
     font-size: 13px;
     display: block;
 }
-
+.nav-btn {
+    font-size: 14px;
+    border-radius: 23px;
+    padding: 8px 15px;
+}
 /*###############-------Video Banner------#################*/
 .hero-section{
     min-height: calc(100vh - 71px);
@@ -53,7 +72,7 @@
     top: 100px;
     left: 40px;
     transition: all ease-in-out 300ms;
-    z-index: 999999;
+    z-index: 1000;
     
 }
 .hero-section .enquire-now-form.out{
@@ -91,7 +110,7 @@
 
 /*###############-------Course Section------#################*/
 .course-item {
-    max-width: 500px;
+    max-width: 570px;
     margin: 0 auto;
 }
 .course-section .row > div{
@@ -184,4 +203,66 @@
 }
 .phone-icon {
     font-size: 22px;
+}
+
+.why-pgdm-section{
+    background-image: url(../images/energy-banner.png);
+    background-size: cover;
+}
+.app-procedure .bg-icon img{
+    pointer-events: none;
+    z-index: -1;
+}
+.app-procedure .bg-icon .icon1{
+    bottom: 0px;
+    left: 0px;
+}   
+.app-procedure .bg-icon .icon2{
+    bottom: 0px;
+    right: 0px;
+}
+.app-procedure .bg-icon .icon3{
+    top: 100px;
+    left: 0px;
+}
+.app-procedure .bg-icon .icon4{
+    top: 30%;
+    right: 40px;
+}
+
+
+.recruiter-section{
+    background-image: url(../images/recruiter_banner.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.recruiter-slider .slick-arrow::before{
+    font-size: 36px;
+}
+.slick-prev {
+    left: 0px;
+}
+.slick-next {
+    right: 0px;
+}
+
+.apply-item {
+
+    margin: 10px;
+    max-width: 400px;
+}
+
+.apply-item p{
+    font-size: 13px;
+}
+.flex-1{
+    flex: 1 !important;
+   }
+.flex-2{
+ flex: 2 !important;
+}
+.flex-3{
+    flex: 3 !important;
 }
