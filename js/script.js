@@ -19,6 +19,20 @@ $(window).scroll(function() {
 });
 
 
+// Recruiter Slider
+$(document).ready(function(){
+	$('.hero-slider').slick({
+		pauseOnFocus:false,
+		pauseOnHover:false,
+		autoplay:true,
+		arrows:false,
+		infinite: true,
+		rows: 1,
+        dots: true,
+        slidesToShow: 1,
+		slidesToScroll: 1,
+	});
+  });
 
 // Recruiter Slider
 $(document).ready(function(){
