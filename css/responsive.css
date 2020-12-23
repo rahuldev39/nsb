@@ -1,4 +1,7 @@
 @media(max-width:991px){
+    .banner-text h3 {
+        font-size: 29px;
+    }
     .leader-item {
         width: 33.33%;
         flex-basis: 33.33%;
@@ -18,6 +21,32 @@
 }
 
 @media(max-width:768px){
+    .banner-text {
+        background-color: #0166abc7;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        text-align: center;
+        pointer-events: none;
+        color: #ffffff;
+        padding: 12px 5px;
+        width: 95%;
+        max-width: 400px;
+        bottom: auto;
+        padding-bottom: 24px;
+    }
+    .banner-text h3 {
+        font-size: 31px;
+    }
+    .banner-text span {
+        background-color: #d87203;
+        padding: 4px 0px;
+        display: block;
+        border-radius: 23px;
+        margin-top: 15px;
+        font-size: 17px;
+    }
     .apply-item {
         flex: 1 !important;
         word-break: break-word;

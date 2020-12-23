@@ -119,25 +119,24 @@
     z-index: 100;
 }
 .banner-text {
-    background-color: #0166abc7;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     z-index: 100;
+    right: 50px;
+    bottom: 70px;
+    color: white;
     text-align: center;
-    pointer-events: none;
-    color: #ffffff;
-    padding: 12px 5px;
-    width: 95%;
-    max-width: 400px;
+}
+.banner-text h3 {
+    font-size: 40px;
+    text-shadow: 0px 0px 17px black;
+    font-weight: 700;
 }
 .banner-text span {
-    background-color: #d87203;
-    padding: 4px 0px;
-    display: block;
-    border-radius: 23px;
-    margin-top: 15px;
-    font-size: 17px;
+    display: inline-block;
+    background-color: #0166abc7;
+    padding: 8px 14px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
 }
 /*###############-------IIM section------#################*/
 .iim-heading {
