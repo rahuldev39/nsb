@@ -118,7 +118,27 @@
     transition: .5s;
     z-index: 100;
 }
-
+.banner-text {
+    background-color: #0166abc7;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    text-align: center;
+    pointer-events: none;
+    color: #ffffff;
+    padding: 12px 5px;
+    width: 95%;
+    max-width: 400px;
+}
+.banner-text span {
+    background-color: #d87203;
+    padding: 4px 0px;
+    display: block;
+    border-radius: 23px;
+    margin-top: 15px;
+    font-size: 17px;
+}
 /*###############-------IIM section------#################*/
 .iim-heading {
     font-size: 55px;
